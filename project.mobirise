@@ -1,0 +1,873 @@
+{
+  "settings": {
+    "currentPage": "index",
+    "name": "Marcin Kołodziej",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#502c84",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#ffffff",
+        "dangerColor": "#793fff",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 68,
+    "versionPublish": "3.11.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-50260950-8', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index": {
+      "settings": {
+        "main": true,
+        "title": "Marcin Kołodziej - edukacja z matematyki i informatyki",
+        "meta_descr": "Strona główna korepetytora z królowej nauk - matematyki oraz informatyki - w tym języków programowania. Wejdź i skorzystaj z oferty!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "48px",
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-l",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20170312-2000x1124.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<p>Witaj,  nazywam się <br>Marcin Kołodziej</p>",
+          "text": "jestem korepetytorem z matematyki oraz informatyki (programowania)<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index#header3-z\" data-toolbar=\"-mbrBtnMove\">Więcej...</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#000000",
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-z",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff",
+            "showMeta": false
+          },
+          "title": "OFERTA USŁUG",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#7c7c7c"
+            },
+            ".iconbox": {
+              "background-color": "#502c84",
+              "border-color": "#502c84"
+            },
+            "H4": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-x",
+          "_params": {
+            "iconsBgColor": "#502c84",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "2",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "edit",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title1": "Edukacja z matematyki",
+          "subtitle1": "Potocznie zwane korkami z królowej nauk",
+          "caption1": "Oferuję edukacje w pełnej zakresie z matematki - począwszy od dzieci wczesnoszkolne, licea i technika (przygotowuję do matury) oraz na studentach kończąc.&nbsp;Każde korepetycje przeprowadzam z przyjaznym nastawieniem i wyrozumiałością. Poziom trudności i szybkość przerabianego materiału ustalam indywidualnie do potrzeb każdego. Stawiam na harmonijny i zrównoważony rozwój. W końcu na tym polega edukacja :)<br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span>Przyjmuję w<b> Poradni Psychopedagogicznej</b> w <b>Bolesławcu, gabinecie we Wrocławiu, domu klienta</b> oraz w<b> </b>formie<b> online.</b>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "desctop",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title2": "Edukacja z informatyki",
+          "subtitle2": "Dla początkjących i zaawansowanych",
+          "caption2": "W mojej ofercie nie brakuje również prowadzeniu edukacji krótkoterminowej i długoterminowej z zakresu informatycznego. Nuczę podstaw obsługi komputera, w tym innych urządzeń aż po programowanie w C++.<br><br>Zachęcam do kontaktu telefonicznego w celu ustalenia szczegółowych warunków edukacyjnych.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title3": "Poradnictwo Psychopedagogiczne",
+          "subtitle3": "Wtedy gdy nie wiesz co już możesz zrobić",
+          "caption3": "Poradnictwo jest to zaawansowane i profesjonalne doradztwo. Wiąże się z otrzymaniem danych na temat życia, pracy, rodziny, wychowania, analizą wyborów i wsparciu w podejmowaniu trudnych i ciężkich decyzji.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "preview",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title4": "Diagnostyka <br>",
+          "subtitle4": "Psychlogiczno - pedagogiczna i społeczna",
+          "caption4": "Diagnostyka jest procesem indywidualnym. Diagnostyka rodzinna przydaje się w sprawach rozwodowych, przyznania opieki nad dzieckiem lub karnych. W procesie diagnostycznym biorą udział również inni specjaliści. Jako pedagog uczestniczę również przy diagnostyce w problemach natury społecznej oraz prawnej.<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-2-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-3-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-3-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-1-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-1-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-4-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-4-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "25px",
+              "text-align": "left"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-1t",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#502c84",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/logo-ptpp-biale-1400x1345.png",
+              "link": "http://www.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "left",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Jestem członkiem</span><span style=\"font-weight: normal;\"><br></span><br>Polskiego Towarzystwa Psychopedagogicznego",
+          "text": "Polskie Towarzystwo Psychopedagogiczne jest Stowarzyszeniem ludzi zaangażowanych w sprawy lokalnych społeczności, pragnących uczestniczyć w działaniach naukowych z dziedziny oświaty, wychowania obywatelskiego i rozwoju człowieka.<br><br>Jako Polskie Towarzystwo Psychopedagogiczne chcemy kreować działania zainspirowane przepisami Konwencji o prawach dziecka, Ideą Wolności wyrażoną w Powszechnej Deklaracji Praw Człowieka oraz innymi aktami prawa krajowego i międzynarodowego wywodzącymi się z poszanowania dla emancypacji ruchów społecznych. Pragniemy współpracować ze wszystkimi środowiskami, których działania skierowane będą na popularyzację wiedzy, aktywizację społeczeństwa i rozwój.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"http://www.psychopedagog.eu\" data-toolbar=\"-mbrBtnMove\">ZOBACZ KONIECZNIE!</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "ZESPÓŁ",
+          "meta": "Polskiego Towarzystwa Psychopedagogicznego"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H5": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "font-size": "20px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#000000",
+              "text-align": "right"
+            }
+          },
+          "_anchor": "features3-1c",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ks-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://ks.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Katarzyna Sulik",
+          "subtitle1": "pedagog, terapeuta, polonista",
+          "caption1": "Kasia jest terapeutą specjalizującą się w pracy z dziećmi. Rozwiązuje problemy wychowawcze, podnosi wartość osobistą, prowadzi kwestie doradcze. Skupia się również na pracy z dziećmi zaburzonymi intelektualnie i rozwojowo.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://ks.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WIĘCEJ...</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bd-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://bd.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Barbara Duch",
+          "subtitle2": "psycholog, terapeuta systemowy",
+          "caption2": "Basia z pewnością jest jednym z najlepszych psychologów, jakich poznałem. Ma rewelacyjne podejście do rodzin. Basia pracuje również z osobami posiadającymi trudności personalne oraz organizuje zajęcia psychoedukacyjne.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://bd.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/esz-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://esz.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Ewa Szylkiewicz",
+          "subtitle3": "pedagog, teraputa logopedyczny, anglistyk",
+          "caption3": "Ewa rewelacyjnie prowadzi zajęcia logopedyczne dla dzieci, młodzieży i dorosłych. Angażuje się w sprawy każdego klienta i dzięki temu posiada ogromne osiągi na tle zawodowym. Jako anglistyk prowadzi również zajęcia z j. angielskiego.",
+          "button3": "<a data-app-btn=\"true\" href=\"http://esz.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dawid-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://dkk.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Dawid Karol Kołodziej",
+          "subtitle4": "pedagog, terapeuta, coach",
+          "caption4": "Dawid jest założycielem i twórcą Polskiego Towarzystwa Psychopedagogicznego, mentorem dla początkujących terapeutów. Jako pedagog zajmuje się pracą nad zachowaniami i postawami społecznymi, wspieraniem rozwoju osobistego jak również diagnostyką. Swoją ofertę coachingową kieruje również do firm i osób przedsiębiorczych! ",
+          "button4": "<a data-app-btn=\"true\" href=\"http://dkk.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mm-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://mm.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "Mateusz Mikołajewicz",
+          "subtitle5": "psychodietetyk, młodzieżowy coach",
+          "caption5": "Mateusz jako psychodietetyk oraz coach pracujący z młodzieżą ustala cele, pragnienia oraz motywuje do nauki czy pracy nad sobą. W obszarze jego kompetencji znajdują się również kwestie związane z doradztwem personalnym i zawodowym.",
+          "button5": "<a data-app-btn=\"true\" href=\"http://mm.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "",
+          "subtitle6": "<span style=\"font-style: normal;\"><b>Więcej...</b></span><br>Zobacz cały zespół naszych specjalistów",
+          "caption6": "To nie wszyscy! Jest nas zbyt wielu by umieścić tu wszystkich. Zapraszamy na podstronę z listą naszych &nbsp;specjalistów.",
+          "button6": "<a data-app-btn=\"true\" href=\"index#features3-1c\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">W BUDOWIE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1324.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "UMÓW SIĘ!",
+          "text": "<p><b style=\"font-size: 1.07rem; line-height: 1.5;\">Rejestracja telefoniczna: +48 730 369 902</b></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">E-mail: marcin.kolodziej@psychopedagog.eu</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1u",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "<p>Aktualności</p>",
+          "meta": "sprawdź co ciekawego u mnie na Twitterze"
+        },
+        {
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-1v",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "youtube": "",
+            "facebook": "",
+            "twitter": "MarcinKolodz",
+            "google": "",
+            "postToLoad": "2",
+            "bgImage": "file:///C:/Users/dafud/AppData/Local/Mobirise.com/Mobirise/projectData/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f"
+          },
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-18",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "ŚLEDŹ MNIE RÓWNIEŻ NA ...",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/psychopedagogeu\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://www.google.pl/maps/place/Terapeuta+Justyna+Janina+Mieniek/@51.263807,15.5640225,15z/data=!4m5!3m4!1s0x0:0x5a8da0b536394749!8m2!3d51.263807!4d15.5640225\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/c/PsychopedagogeuTV\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            "SPAN": {
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "H4": {
+              "color": "#ffffff",
+              "font-size": "16px"
+            },
+            "DIV": {
+              "font-size": "11px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
+          "_anchor": "contacts3-1q",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logodostron-130x128.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "http://www.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "Polskie Towarzystwo Psychopedagogiczne jest stowarzyszeniem ludzi zaangażowanych w sprawy lokalnych społeczności, pragnących uczestniczyć w działaniach naukowych z dziedziny oświaty, wychowania obywatelskiego i rozwoju człowieka.<br><br><b>www.psychopedagog.eu</b><br>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "phone",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "text2": "(+48) 733 379 538",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "map-pin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "text3": "59-700 Bolesławiec, ul. Teatralna 2/5",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "text4": "ptpp@psychopedagog.eu",
+          "title1": "",
+          "text5": "",
+          "text6": "<strong>Firma</strong><br>Psychopedagog.eu. Dawid Karol Kołodziej<br>59-700 Bolesławiec, ul. Teatralna 2/5<br>NIP: 6121828675 | REGON:&nbsp;363015316<br><br><br><strong>Podania Psychopedagogiczna <br>w Bolesławcu</strong><br>59-700 Bolesławiec, Aleja Tysiaclecia 2<br><br><b>Rejestracja telefoniczna</b>: +48 733 379 538<br><b>Rejestracja Whatsapp:</b> (+48) 733 379 538<br><b>Rejestracja Gadu Gadu:</b> 4136117<br><b>E-mail:</b> poradniabc@psychopedagog.eu<br><br>Konto firmowe<br>mBank: 65 1140 2004 0000 3602 5579 7599<br><br>Przy przelewie z zagranicznego konta<br>IBAN: PL 15 1140 2004 0000 3102 7598 0564<br>SWIFT: BREXPLPWMBK<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "marcin.kolodziej@psychopedagog.eu",
+            "alerts": {
+              "success": "Dziękuję za e-mail. Postaram odpowiedzieć się na niego najszybciej jak to będzie możliwe."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-mail*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Treść wiadomości"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Wyślij</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "16px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#391f5e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#492879!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#502c84"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#502c84!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#502c84",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logodostron-130x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://www.psychopedagog.eu",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Polskie Towarzystwo <br>Psychopedagogiczne</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index#header3-z\"><span class=\"mbri-briefcase mbr-iconfont mbr-iconfont-btn\"></span>OFERTA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index#header3-1b\"><span class=\"mbri-link mbr-iconfont mbr-iconfont-btn\"></span>ZESPÓŁ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index#msg-box8-1p\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>KONTAKT / REJESTRACJA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    }
+  }
+}
