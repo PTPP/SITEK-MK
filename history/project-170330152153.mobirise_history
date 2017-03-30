@@ -17,13 +17,12 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
-        "isRtl": false
+        "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 69,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 68,
+    "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-50260950-8', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
@@ -84,10 +83,10 @@
             "contentAlign": "left",
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
-          "title": "<p>Marcin Kołodziej</p>",
-          "text": "korepetytor z matematyki oraz informatyki (programowania)<br>",
+          "title": "<p>Witaj,  nazywam się <br>Marcin Kołodziej</p>",
+          "text": "jestem korepetytorem z matematyki oraz informatyki (programowania)<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index#header3-z\" data-toolbar=\"-mbrBtnMove\">Więcej...</a>"
         },
         {
@@ -180,7 +179,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
-              "name": "laptop",
+              "name": "desctop",
               "family": "MobiriseIcons",
               "active": true,
               "link": "",
@@ -333,15 +332,14 @@
             },
             "P": {
               "color": "#ffffff",
-              "text-align": "left",
-              "font-size": "12px"
+              "text-align": "left"
             }
           },
           "_anchor": "msg-box5-1t",
           "_params": {
             "imageSize": 50,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -390,66 +388,160 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"http://www.psychopedagog.eu\" data-toolbar=\"-mbrBtnMove\">ZOBACZ KONIECZNIE!</a>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#000000"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box1",
+          "_name": "header3",
+          "_anchor": "header3-1b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "ZESPÓŁ",
+          "meta": "Polskiego Towarzystwa Psychopedagogicznego"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
           "_styles": {
-            "H3": {
-              "color": "#ffffff"
+            "H5": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "font-size": "20px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#000000",
+              "text-align": "right"
             }
           },
-          "_anchor": "msg-box1-1w",
+          "_anchor": "features3-1c",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "file:///C:/Users/Lenovo/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1330_2.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
-            "showText": true,
-            "showTitle": true
-          },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"siatka/specjalisci.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>SIATKA SPECJALISTÓW</a>",
-          "text": "Zapoznaj się z zespołem specjalistów PTPP z którymi współpracuję i wybierz kogoś.",
-          "title": "Zobacz specjalistów PTPP!"
-        },
-        {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-18",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
           },
-          "text": "ŚLEDŹ MNIE NA ...",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/psychopedagogeu\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://www.google.pl/maps/place/Terapeuta+Justyna+Janina+Mieniek/@51.263807,15.5640225,15z/data=!4m5!3m4!1s0x0:0x5a8da0b536394749!8m2!3d51.263807!4d15.5640225\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/c/PsychopedagogeuTV\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       "
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ks-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://ks.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Katarzyna Sulik",
+          "subtitle1": "pedagog, terapeuta, polonista",
+          "caption1": "Kasia jest terapeutą specjalizującą się w pracy z dziećmi. Rozwiązuje problemy wychowawcze, podnosi wartość osobistą, prowadzi kwestie doradcze. Skupia się również na pracy z dziećmi zaburzonymi intelektualnie i rozwojowo.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://ks.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WIĘCEJ...</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bd-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://bd.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Barbara Duch",
+          "subtitle2": "psycholog, terapeuta systemowy",
+          "caption2": "Basia z pewnością jest jednym z najlepszych psychologów, jakich poznałem. Ma rewelacyjne podejście do rodzin. Basia pracuje również z osobami posiadającymi trudności personalne oraz organizuje zajęcia psychoedukacyjne.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://bd.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/esz-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://esz.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Ewa Szylkiewicz",
+          "subtitle3": "pedagog, teraputa logopedyczny, anglistyk",
+          "caption3": "Ewa rewelacyjnie prowadzi zajęcia logopedyczne dla dzieci, młodzieży i dorosłych. Angażuje się w sprawy każdego klienta i dzięki temu posiada ogromne osiągi na tle zawodowym. Jako anglistyk prowadzi również zajęcia z j. angielskiego.",
+          "button3": "<a data-app-btn=\"true\" href=\"http://esz.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dawid-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://dkk.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Dawid Karol Kołodziej",
+          "subtitle4": "pedagog, terapeuta, coach",
+          "caption4": "Dawid jest założycielem i twórcą Polskiego Towarzystwa Psychopedagogicznego, mentorem dla początkujących terapeutów. Jako pedagog zajmuje się pracą nad zachowaniami i postawami społecznymi, wspieraniem rozwoju osobistego jak również diagnostyką. Swoją ofertę coachingową kieruje również do firm i osób przedsiębiorczych! ",
+          "button4": "<a data-app-btn=\"true\" href=\"http://dkk.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mm-600x1000.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://mm.psychopedagog.eu",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "Mateusz Mikołajewicz",
+          "subtitle5": "psychodietetyk, młodzieżowy coach",
+          "caption5": "Mateusz jako psychodietetyk oraz coach pracujący z młodzieżą ustala cele, pragnienia oraz motywuje do nauki czy pracy nad sobą. W obszarze jego kompetencji znajdują się również kwestie związane z doradztwem personalnym i zawodowym.",
+          "button5": "<a data-app-btn=\"true\" href=\"http://mm.psychopedagog.eu\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ...</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "",
+          "subtitle6": "<span style=\"font-style: normal;\"><b>Więcej...</b></span><br>Zobacz cały zespół naszych specjalistów",
+          "caption6": "To nie wszyscy! Jest nas zbyt wielu by umieścić tu wszystkich. Zapraszamy na podstronę z listą naszych &nbsp;specjalistów.",
+          "button6": "<a data-app-btn=\"true\" href=\"index#features3-1c\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">W BUDOWIE</a>"
         },
         {
           "_styles": {
@@ -534,6 +626,33 @@
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg"
         },
         {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-18",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "ŚLEDŹ MNIE RÓWNIEŻ NA ...",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/psychopedagogeu\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://www.google.pl/maps/place/Terapeuta+Justyna+Janina+Mieniek/@51.263807,15.5640225,15z/data=!4m5!3m4!1s0x0:0x5a8da0b536394749!8m2!3d51.263807!4d15.5640225\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/c/PsychopedagogeuTV\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       "
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -589,8 +708,8 @@
             "iconFont": {
               "class": "mbr-iconfont-company-contacts3",
               "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
+              "name": "phone",
+              "family": "et-line",
               "active": true,
               "size": 0,
               "color": "#ffffff"
@@ -601,8 +720,8 @@
             "iconFont": {
               "class": "mbr-iconfont-company-contacts3",
               "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
+              "name": "map-pin",
+              "family": "et-line",
               "active": true,
               "size": 0,
               "color": "#ffffff"
@@ -613,8 +732,8 @@
             "iconFont": {
               "class": "mbr-iconfont-company-contacts3",
               "linkInNewWindow": false,
-              "name": "letter",
-              "family": "MobiriseIcons",
+              "name": "envelope",
+              "family": "et-line",
               "active": true,
               "size": 0,
               "color": "#ffffff"
